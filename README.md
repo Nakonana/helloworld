@@ -11,6 +11,8 @@ Modifying a file.
 
 https://nodejs.org/en/download/releases/
 
+https://stackoverflow.com/questions/12866494/how-do-you-reinstall-an-apps-dependencies-using-npm npm ci
+
 https://idratherbewriting.com/learnapidoc/pubapis_github_desktop_client.html
 
 https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch
