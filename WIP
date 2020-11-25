@@ -1,0 +1,38 @@
+strg+f: [ \t]+$
+
+\locales\ach\challenge.json  35 results
+             \character.json 43 results
+             \generic.json 95 results
+             \noscript.json 2 results
+             \overview.json double /t 2 results
+         \af\communityguidelines.json 1 result
+            \noscript.json 2 results
+            \overview.json double /t 2 results
+         \ar\communityguidelines.json 1 result
+            \noscript.json 2 results
+            \overview.json double /t 2 results
+         \be\communityguidelines.json 1 result
+            \noscript.json 2 results
+            \overview.json double /t 2 results
+         \bg\communityguidelines.json 1 result
+            \noscript.json 2 results
+         \bn\communityguidelines.json 1 result
+            \noscript.json 2 results
+            \overview.json double /t 2 results
+         \bs\communityguidelines.json 1 result
+            \noscript.json 2 results
+            \overview.json double /t 2 results
+         \ca\communityguidelines.json 1 result
+            \noscript.json 2 results
+            \overview.json double /t 2 results
+         \cs\communityguidelines.json 1 result
+            \noscript.json 2 results
+            \overview.json double /t 4 results
+         \da\communityguidelines.json 1 result
+            \merch.json 1 result
+            \noscript.json 2 results
+         \de\communityguidelines.json 1 result
+            \noscript.json 2 results
+         
+
+
