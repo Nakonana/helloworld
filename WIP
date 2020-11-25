@@ -1,10 +1,12 @@
+some languages don't have a readme
+
 strg+f: [ \t]+$
 
 \locales\ach\challenge.json  35 results
              \character.json 43 results
              \generic.json 95 results
              \noscript.json 2 results
-             \overview.json double /t 2 results
+             \overview.json double /t 2 results - prbably all intended
          \af\communityguidelines.json 1 result
             \noscript.json 2 results
             \overview.json double /t 2 results
@@ -33,6 +35,52 @@ strg+f: [ \t]+$
             \noscript.json 2 results
          \de\communityguidelines.json 1 result
             \noscript.json 2 results
+         \el\communityguidelines.json 1 result
+            \noscript.json 2 results
+            \overview.json double /t 4 results
+         \en\backgrounds.json double /t  - probably intended
+            \communityguidelines.json double /t - probably intended
+            \noscript.json 2 results
+            \overview.json double /t 2 results
+         \enGB\communityguidelines.json 1 result
+              \noscript.json 2 results
+         \e@lolcat\communityguidelines.json 1 double /t result
+                  \merch.json 1 result
+                  \noscript.json 2 results
+         \en@pirate\communityguidelines.json 1 result
+                   \noscript.json 2 results
+         \eo\communityguidelines.json 1 result
+            \noscript.json 2 results
+            \overview.json double /t 4 results
+         \es\merch.json 1 result
+            \noscript.json 2 results
+         \es_419\communityguidelines.json 1 result
+            \noscript.json 2 results
+         \et\communityguidelines.json 1 result
+            \noscript.json 2 results
+            \overview.json double /t 4 results
+         \fa_IR\communityguidelines.json 1 result
+            \noscript.json 2 results
+            \overview.json double /t 4 results
+         \fi\communityguidelines.json 1 result
+            \noscript.json 2 results
+            \overview.json double /t 4 results
+         \fil\communityguidelines.json 1 result
+             \noscript.json 2 results
+             \overview.json double /t 4 results
+         \fr\communityguidelines.json 1 result
+            \noscript.json 2 results
+         \fy\communityguidelines.json 1 result
+            \noscript.json 2 results
+            \overview.json double /t 4 results
+         \ga\communityguidelines.json 1 result
+            \noscript.json 2 results
+            \overview.json double /t 4 results
+         \gl\communityguidelines.json 1 result
+            \noscript.json 2 results
+            \overview.json double /t 4 results
+stopped at /haw
+           
          
 
 
