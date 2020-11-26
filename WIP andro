@@ -25,45 +25,48 @@ strg+f: ^[^\s]+[ \s]$
  mana_description
  health_description
  --> have white space issues in several languages
+ 
+ ---> add new lines everywhere
 
 res\values\styles.xml line 419
-    values-bg\store.xml missing
-    values-ca\store.xml missing
+    values-be\                   - not available - missing new lines
+    values-bg\store.xml missing  - available hardly working no missing lines (missing translations?)
+    values-ca\store.xml missing  - not available - missing new lines
              \strings.xml line 57 white space
-    values-cs\store.xml missing
-    values-da\store.xml missing
-    values-de\store.xml missing
+    values-cs\store.xml missing  - not available - missing new lines
+    values-da\store.xml missing  - not available - missing new lines
+    values-de\store.xml missing  - available with one missing new lines
              \strings.xml whitespace within Verfügbar bis  zum %s?
-    values-el\store.xml missing
-    values-en-rGB\store.xml missing
+    values-el\store.xml missing  - not available - missing new lines - Greek
+    values-en-rGB\store.xml missing   - available with one missing new lines
                  \strings.tutorial.xml line 15 & 18 indented on purpose?
                  CONFLICT (content): Merge conflict in Habitica/res/values-en-rGB/strings.xml Weblate Output
-    values-es\store.xml missing
-    values-fi\store.xml missing
-    values-fr\store.xml missing
-    values-he\store.xml missing and all others except strings.profile.xml
-    values-hi\store.xml missing
-    values-hr-rHR\store.xml missing
+    values-es\store.xml missing  - available but hardly working with 2 missing new lines
+    values-fi\store.xml missing  - not available - 3 missing new lines - Finnish
+    values-fr\store.xml missing  - available hardly working 3 missing new lines
+    values-he\store.xml missing and all others except strings.profile.xml - language?  
+    values-hi\store.xml missing   - not available - missing new lines - Hindi
+    values-hr-rHR\store.xml missing   - available not working all new lines available (not translated?)
                  \string.sidebar.xml line 16 leading space
                  \strings.xml line 229 Prodaj(%d Zlatnika) with trailing space
-    values-hu\store.xml missing + no strings in profile
-    values-id\store.xml missing and all except profile
-    values-in\store.xml missing and profile
-    values-it\store.xml missing
-    values-iw\store.xml missing and profile
-    values-ja\store.xml missing
-    values-ko\store.xml missing
-    values-lt\store.xml missing
-    values-nl\store.xml missing
-    values-no\store.xml missing and all others except strings
-    values-pl\store.xml missing
-    values-pt-rBR\store.xml missing
-    values-pt-rPT\store.xml missing
-    values-ro\store.xml missing
-    values-ru\store.xml missing
-    values-sv\store.xml missing
-    values-th\store.xml missing
-    values-tr\store.xml missing 
+    values-hu\store.xml missing + no strings in profile   - not available - missing 3 new lines
+    values-id\store.xml missing and all except profile   - language?
+    values-in\store.xml missing and profile   - available - hardly working 1 missing new lines - indonesian?
+    values-it\store.xml missing   - available hardly working 1 missing new lines
+    values-iw\store.xml missing and profile - available hardly working no missing new lines - Hebrew
+    values-ja\store.xml missing - available hardly working one missing new lines
+    values-ko\store.xml missing - available not working missing new lines
+    values-lt\store.xml missing - not available - no missing new lines - Lithuanian
+    values-nl\store.xml missing - available hardly working one missing new lines
+    values-no\store.xml missing and all others except strings - not available - missing new lines - Norwegian
+    values-pl\store.xml missing - available hardly working 2 missing new lines
+    values-pt-rBR\store.xml missing - available hardly working 3 missing new lines
+    values-pt-rPT\store.xml missing - available hardly working 2 missing new lines
+    values-ro\store.xml missing - not available hardly 3 missing new lines - Romanian
+    values-ru\store.xml missing - available hardly working 3 missing new lines    
+    values-sv\store.xml missing - not available 3 missing new lines
+    values-th\store.xml missing - not available 3 missing new lines
+    values-tr\store.xml missing - available hardly working no missing new lines
                CONFLICT (content): Merge conflict in Habitica/res/values-tr/strings.xml 
                    --> deleted string translations: 
                                 https://translate.habitica.com/translate/habitica-android/main-strings/tr/?checksum=670dc4ed5f85612c
@@ -74,10 +77,10 @@ res\values\styles.xml line 419
                                 https://translate.habitica.com/translate/habitica-android/main-strings/tr/?checksum=a1b50b120ee9d015
                                 https://translate.habitica.com/translate/habitica-android/main-strings/tr/?checksum=21ee928fddb02c48
                CONFLICT (content): Merge conflict in Habitica/res/values-tr/strings.sidebar.xml (not sure what's causing it)
-    values-uk\store.xml missing
-    values-vi\store.xml missing
-    values-zh\store.xml missing (simplified)
-    values-zh-rTW\store.xml missing
+    values-uk\store.xml missing - not available 3 missing new lines - Ukr
+    values-vi\store.xml missing - not available 2 missing new lines
+    values-zh\store.xml missing (simplified) - available hardly working 2 missing new lines
+    values-zh-rTW\store.xml missing - available hardly working 2 missing new lines
    
     
     [\S]+[ \n]+[ \cX]
