@@ -1,0 +1,92 @@
+line characters overview: https://stackoverflow.com/a/3451176
+
+strg+f: ^[^\s]+[ \s]$
+
+ inn_description
+ welcome_text
+ reset_account_description 
+ class_equipment_shop_dialog
+ profile_gift_subscription
+ profile_gift_gems
+ profile_send_message
+ task_setup_description
+ --> are oddly formated/have white spaces issues in some languages but have been adjusted in the meantime
+ 
+ </resources> often followed by white space
+ 
+ subscribe_listitem1_description
+ hourglasses_description
+ gems_description
+ stat_description
+ gold_description
+ experience_description
+ mana_description
+ health_description
+ --> have white space issues in several languages
+
+res\values\styles.xml line 419
+    values-bg\store.xml missing
+    values-ca\store.xml missing
+             \strings.xml line 57 white space
+    values-cs\store.xml missing
+    values-da\store.xml missing
+    values-de\store.xml missing
+             \strings.xml whitespace within Verfügbar bis  zum %s?
+    values-el\store.xml missing
+    values-en-rGB\store.xml missing
+                 \strings.tutorial.xml line 15 & 18 indented on purpose?
+                 CONFLICT (content): Merge conflict in Habitica/res/values-en-rGB/strings.xml Weblate Output
+    values-es\store.xml missing
+    values-fi\store.xml missing
+    values-fr\store.xml missing
+    values-he\store.xml missing and all others except strings.profile.xml
+    values-hi\store.xml missing
+    values-hr-rHR\store.xml missing
+                 \string.sidebar.xml line 16 leading space
+                 \strings.xml line 229 Prodaj(%d Zlatnika) with trailing space
+    values-hu\store.xml missing + no strings in profile
+    values-id\store.xml missing and all except profile
+    values-in\store.xml missing and profile
+    values-it\store.xml missing
+    values-iw\store.xml missing and profile
+    values-ja\store.xml missing
+    values-ko\store.xml missing
+    values-lt\store.xml missing
+    values-nl\store.xml missing
+    values-no\store.xml missing and all others except strings
+    values-pl\store.xml missing
+    values-pt-rBR\store.xml missing
+    values-pt-rPT\store.xml missing
+    values-ro\store.xml missing
+    values-ru\store.xml missing
+    values-sv\store.xml missing
+    values-th\store.xml missing
+    values-tr\store.xml missing 
+               CONFLICT (content): Merge conflict in Habitica/res/values-tr/strings.xml 
+                   --> deleted string translations: 
+                                https://translate.habitica.com/translate/habitica-android/main-strings/tr/?checksum=670dc4ed5f85612c
+                                https://translate.habitica.com/translate/habitica-android/main-strings/tr/?checksum=3f16d2aa5acb48a0
+                                https://translate.habitica.com/translate/habitica-android/main-strings/tr/?checksum=222ff91372bcb252
+                                https://translate.habitica.com/translate/habitica-android/main-strings/tr/?checksum=86ff87f45d4092
+                                https://translate.habitica.com/translate/habitica-android/main-strings/tr/?checksum=4504f810b80896e4
+                                https://translate.habitica.com/translate/habitica-android/main-strings/tr/?checksum=a1b50b120ee9d015
+                                https://translate.habitica.com/translate/habitica-android/main-strings/tr/?checksum=21ee928fddb02c48
+               CONFLICT (content): Merge conflict in Habitica/res/values-tr/strings.sidebar.xml (not sure what's causing it)
+    values-uk\store.xml missing
+    values-vi\store.xml missing
+    values-zh\store.xml missing (simplified)
+    values-zh-rTW\store.xml missing
+   
+    
+    [\S]+[ \n]+[ \cX]
+    [\S]+[ \n]+[ \s]
+    [ \S]+[ \t]+[ \s]
+    [ \S]+[ \cX]+[ \cX]
+    \\n
+    
+    ^[^\s]+[ \s]+$
+    
+This finds 21 whitespaces in de\strings.xml: ^[^\s]+[ \s]+$
+Weblate: warning: squelched 21 whitespace errors (shows German examples)
+    
+    
