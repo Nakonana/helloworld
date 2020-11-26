@@ -1,5 +1,7 @@
 line characters overview: https://stackoverflow.com/a/3451176
 
+no new line at end of file = issue? https://stackoverflow.com/a/5813359 : Note that it is a good style to always put the newline as a last character if it is allowed by the file format. Furthermore, for example, for C and C++ header files it is required by the language standard. It's not just bad style, it can lead to unexpected behavior when using other tools on the file. if you wanted to combine files it may not behave the way you'd expect: it merges lines instead of stacking them. Warning about no end-of-line could be a warning when a portion of a file has been truncated. It could be a symptom of missing data. Source files are often concatenated by tools (C, C++: header files, Javascript: bundlers). If you omit the newline character, you could introduce nasty bugs (where the last line of one source is concatenated with the first line of the next source file). Hopefully all the source code concat tools out there insert a newline between concatenated files anyway but that doesn't always seem to be the case. The crux of the issue is - in most languages, newlines have semantic meaning and end-of-file is not a language defined alternative for the newline character. So you ought to terminate every statement/expression with a newline character -- including the last one.
+
 strg+f: ^[^\s]+[ \s]$
 
  inn_description
